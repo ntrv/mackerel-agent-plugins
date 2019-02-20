@@ -65,6 +65,25 @@ var fetchMetricsTests = []struct {
 			"99_percentile":  0.015,
 		},
 	},
+	{
+		Name:   "LTSV microsec log",
+		InFile: "testdata/sample-ltsv-microsec.tsv",
+		Output: map[string]float64{ // Almost same as LTSV log
+			"2xx_count":      7,
+			"3xx_count":      1,
+			"4xx_count":      1,
+			"5xx_count":      1,
+			"total_count":    10,
+			"2xx_percentage": 70,
+			"3xx_percentage": 10,
+			"4xx_percentage": 10,
+			"5xx_percentage": 10,
+			"average":        0.7603999999999999,
+			"90_percentile":  2.0180000000000002,
+			"95_percentile":  3.018,
+			"99_percentile":  3.018,
+		},
+	},
 }
 
 func TestFetchMetrics(t *testing.T) {

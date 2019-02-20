@@ -1,0 +1,10 @@
+time:08/Mar/2017:14:12:40 +0900	host:192.0.2.17	req:GET / HTTP/1.0	status:200	size:942	referer:-	ua:sample-ua	reqtime_microsec:38000
+time:08/Mar/2017:14:12:40 +0900	host:192.0.2.17	req:GET /404 HTTP/1.0	status:404	size:142	referer:-	ua:sample-ua	reqtime_microsec:11000
+time:08/Mar/2017:14:12:40 +0900	host:192.0.2.17	req:GET /500 HTTP/1.0	status:500	size:942	referer:-	ua:sample-ua	reqtime_microsec:1018000
+time:08/Mar/2017:14:12:40 +0900	host:192.0.2.17	req:POST / HTTP/1.0	status:303	size:942	referer:-	ua:sample-ua	reqtime_microsec:2018000
+time:08/Mar/2017:14:12:40 +0900	host:192.0.2.17	req:GET / HTTP/1.0	status:200	size:942	referer:-	ua:sample-ua	reqtime_microsec:33000
+time:08/Mar/2017:14:12:40 +0900	host:192.0.2.17	req:GET / HTTP/1.0	status:200	size:942	referer:-	ua:sample-ua	reqtime_microsec:14000
+time:08/Mar/2017:14:12:40 +0900	host:192.0.2.17	req:GET / HTTP/1.0	status:200	size:942	referer:-	ua:sample-ua	reqtime_microsec:118000
+time:08/Mar/2017:14:12:40 +0900	host:192.0.2.17	req:GET / HTTP/1.0	status:200	size:942	referer:-	ua:sample-ua	reqtime_microsec:4018000
+time:08/Mar/2017:14:12:40 +0900	host:192.0.2.17	req:GET / HTTP/1.0	status:200	size:942	referer:-	ua:sample-ua	reqtime_microsec:318000
+time:08/Mar/2017:14:12:40 +0900	host:192.0.2.17	req:GET / HTTP/1.0	status:200	size:942	referer:-	ua:sample-ua	reqtime_microsec:18000
