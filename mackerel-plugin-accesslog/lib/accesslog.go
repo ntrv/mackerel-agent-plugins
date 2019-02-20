@@ -156,6 +156,8 @@ func (p *AccesslogPlugin) FetchMetrics() (map[string]float64, error) {
 
 		if l.ReqTime != nil {
 			reqtimes = append(reqtimes, *l.ReqTime)
+		} else if l.ReqTimeMicroSec != nil {
+			reqtimes = append(reqtimes, *l.ReqTimeMicroSec * 0.001 * 0.001)
 		} else if l.TakenSec != nil {
 			reqtimes = append(reqtimes, *l.TakenSec)
 		}
